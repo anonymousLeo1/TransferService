@@ -1,0 +1,13 @@
+io/revolut/domain/model/Account.class
+io/revolut/api/RequestPacket.class
+io/revolut/domain/CachedAccountRepository.class
+io/revolut/domain/AccountRepository.class
+io/revolut/domain/model/Currency.class
+io/revolut/App.class
+io/revolut/api/TransferService.class
+io/revolut/domain/Transaction.class
+io/revolut/TestAccountsPopulation.class
+io/revolut/domain/TransactionService.class
+io/revolut/api/AccountApiController.class
+io/revolut/domain/model/Balance.class
+io/revolut/domain/TransferPacket.class

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="io.revolut.AppTest" time="4.975" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jgoyal/test/my-app/target/test-classes:/Users/jgoyal/test/my-app/target/classes:/Users/jgoyal/.m2/repository/org/jooby/jooby/1.5.1/jooby-1.5.1.jar:/Users/jgoyal/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/jgoyal/.m2/repository/com/typesafe/config/1.3.3/config-1.3.3.jar:/Users/jgoyal/.m2/repository/org/jooby/funzy/0.1.0/funzy-0.1.0.jar:/Users/jgoyal/.m2/repository/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar:/Users/jgoyal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jgoyal/.m2/repository/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar:/Users/jgoyal/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jgoyal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jgoyal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jgoyal/.m2/repository/com/google/inject/extensions/guice-multibindings/4.2.0/guice-multibindings-4.2.0.jar:/Users/jgoyal/.m2/repository/com/google/inject/guice/4.2.0/guice-4.2.0.jar:/Users/jgoyal/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/jgoyal/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/jgoyal/.m2/repository/org/jooby/jooby-jackson/1.5.1/jooby-jackson-1.5.1.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.6/jackson-datatype-jdk8-2.9.6.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.6/jackson-datatype-jsr310-2.9.6.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.6/jackson-module-parameter-names-2.9.6.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/module/jackson-module-afterburner/2.9.6/jackson-module-afterburner-2.9.6.jar:/Users/jgoyal/.m2/repository/org/jooby/jooby-apitool/1.5.1/jooby-apitool-1.5.1.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.6/jackson-dataformat-yaml-2.9.6.jar:/Users/jgoyal/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/jgoyal/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/jgoyal/.m2/repository/io/swagger/swagger-core/1.5.20/swagger-core-1.5.20.jar:/Users/jgoyal/.m2/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20.jar:/Users/jgoyal/.m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar:/Users/jgoyal/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/Users/jgoyal/.m2/repository/io/swagger/swagger-parser/1.0.36/swagger-parser-1.0.36.jar:/Users/jgoyal/.m2/repository/org/slf4j/slf4j-ext/1.7.25/slf4j-ext-1.7.25.jar:/Users/jgoyal/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/jgoyal/.m2/repository/org/webjars/swagger-ui/3.17.1/swagger-ui-3.17.1.jar:/Users/jgoyal/.m2/repository/org/webjars/bower/swagger-ui-themes/3.0.0/swagger-ui-themes-3.0.0.jar:/Users/jgoyal/.m2/repository/org/webjars/npm/api-console/3.0.17/api-console-3.0.17.jar:/Users/jgoyal/.m2/repository/org/jooby/jooby-undertow/1.5.1/jooby-undertow-1.5.1.jar:/Users/jgoyal/.m2/repository/io/undertow/undertow-core/2.0.9.Final/undertow-core-2.0.9.Final.jar:/Users/jgoyal/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/Users/jgoyal/.m2/repository/org/jboss/xnio/xnio-api/3.3.8.Final/xnio-api-3.3.8.Final.jar:/Users/jgoyal/.m2/repository/org/jboss/xnio/xnio-nio/3.3.8.Final/xnio-nio-3.3.8.Final.jar:/Users/jgoyal/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/jgoyal/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/jgoyal/.m2/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar:/Users/jgoyal/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/jgoyal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jgoyal/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar:/Users/jgoyal/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/jgoyal/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/Users/jgoyal/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/jgoyal/.m2/repository/org/jooby/jooby/1.5.1/jooby-1.5.1-tests.jar:/Users/jgoyal/.m2/repository/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar:/Users/jgoyal/.m2/repository/org/codehaus/groovy/groovy/2.5.0/groovy-2.5.0.jar:/Users/jgoyal/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.12/groovy-xml-2.4.12.jar:/Users/jgoyal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/jgoyal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/jgoyal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jgoyal/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/jgoyal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.5/httpmime-4.5.5.jar:/Users/jgoyal/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/jgoyal/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/jgoyal/.m2/repository/io/rest-assured/json-path/3.1.0/json-path-3.1.0.jar:/Users/jgoyal/.m2/repository/org/codehaus/groovy/groovy-json/2.4.12/groovy-json-2.4.12.jar:/Users/jgoyal/.m2/repository/io/rest-assured/rest-assured-common/3.1.0/rest-assured-common-3.1.0.jar:/Users/jgoyal/.m2/repository/io/rest-assured/xml-path/3.1.0/xml-path-3.1.0.jar:/Users/jgoyal/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/jgoyal/test/my-app/target/surefire/surefirebooter6601570191034112642.jar /Users/jgoyal/test/my-app/target/surefire 2019-01-01T22-38-04_127-jvmRun1 surefire1320678705652310025tmp surefire_05147945559339696937tmp"/>
+    <property name="surefire.test.class.path" value="/Users/jgoyal/test/my-app/target/test-classes:/Users/jgoyal/test/my-app/target/classes:/Users/jgoyal/.m2/repository/org/jooby/jooby/1.5.1/jooby-1.5.1.jar:/Users/jgoyal/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/jgoyal/.m2/repository/com/typesafe/config/1.3.3/config-1.3.3.jar:/Users/jgoyal/.m2/repository/org/jooby/funzy/0.1.0/funzy-0.1.0.jar:/Users/jgoyal/.m2/repository/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar:/Users/jgoyal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jgoyal/.m2/repository/org/checkerframework/checker-qual/2.0.0/checker-qual-2.0.0.jar:/Users/jgoyal/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jgoyal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jgoyal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jgoyal/.m2/repository/com/google/inject/extensions/guice-multibindings/4.2.0/guice-multibindings-4.2.0.jar:/Users/jgoyal/.m2/repository/com/google/inject/guice/4.2.0/guice-4.2.0.jar:/Users/jgoyal/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/jgoyal/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/jgoyal/.m2/repository/org/jooby/jooby-jackson/1.5.1/jooby-jackson-1.5.1.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.6/jackson-datatype-jdk8-2.9.6.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.6/jackson-datatype-jsr310-2.9.6.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.6/jackson-module-parameter-names-2.9.6.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/module/jackson-module-afterburner/2.9.6/jackson-module-afterburner-2.9.6.jar:/Users/jgoyal/.m2/repository/org/jooby/jooby-apitool/1.5.1/jooby-apitool-1.5.1.jar:/Users/jgoyal/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.6/jackson-dataformat-yaml-2.9.6.jar:/Users/jgoyal/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/jgoyal/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/jgoyal/.m2/repository/io/swagger/swagger-core/1.5.20/swagger-core-1.5.20.jar:/Users/jgoyal/.m2/repository/io/swagger/swagger-models/1.5.20/swagger-models-1.5.20.jar:/Users/jgoyal/.m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar:/Users/jgoyal/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/Users/jgoyal/.m2/repository/io/swagger/swagger-parser/1.0.36/swagger-parser-1.0.36.jar:/Users/jgoyal/.m2/repository/org/slf4j/slf4j-ext/1.7.25/slf4j-ext-1.7.25.jar:/Users/jgoyal/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/jgoyal/.m2/repository/org/webjars/swagger-ui/3.17.1/swagger-ui-3.17.1.jar:/Users/jgoyal/.m2/repository/org/webjars/bower/swagger-ui-themes/3.0.0/swagger-ui-themes-3.0.0.jar:/Users/jgoyal/.m2/repository/org/webjars/npm/api-console/3.0.17/api-console-3.0.17.jar:/Users/jgoyal/.m2/repository/org/jooby/jooby-undertow/1.5.1/jooby-undertow-1.5.1.jar:/Users/jgoyal/.m2/repository/io/undertow/undertow-core/2.0.9.Final/undertow-core-2.0.9.Final.jar:/Users/jgoyal/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/Users/jgoyal/.m2/repository/org/jboss/xnio/xnio-api/3.3.8.Final/xnio-api-3.3.8.Final.jar:/Users/jgoyal/.m2/repository/org/jboss/xnio/xnio-nio/3.3.8.Final/xnio-nio-3.3.8.Final.jar:/Users/jgoyal/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/jgoyal/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/jgoyal/.m2/repository/org/projectlombok/lombok/1.16.20/lombok-1.16.20.jar:/Users/jgoyal/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/jgoyal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jgoyal/.m2/repository/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar:/Users/jgoyal/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/jgoyal/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.jar:/Users/jgoyal/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/Users/jgoyal/.m2/repository/org/jooby/jooby/1.5.1/jooby-1.5.1-tests.jar:/Users/jgoyal/.m2/repository/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar:/Users/jgoyal/.m2/repository/org/codehaus/groovy/groovy/2.5.0/groovy-2.5.0.jar:/Users/jgoyal/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.12/groovy-xml-2.4.12.jar:/Users/jgoyal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/jgoyal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/jgoyal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jgoyal/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/jgoyal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.5/httpmime-4.5.5.jar:/Users/jgoyal/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/jgoyal/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/jgoyal/.m2/repository/io/rest-assured/json-path/3.1.0/json-path-3.1.0.jar:/Users/jgoyal/.m2/repository/org/codehaus/groovy/groovy-json/2.4.12/groovy-json-2.4.12.jar:/Users/jgoyal/.m2/repository/io/rest-assured/rest-assured-common/3.1.0/rest-assured-common-3.1.0.jar:/Users/jgoyal/.m2/repository/io/rest-assured/xml-path/3.1.0/xml-path-3.1.0.jar:/Users/jgoyal/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jgoyal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/jgoyal/test/my-app"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/jgoyal/test/my-app/target/surefire/surefirebooter6601570191034112642.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="jgoyal"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/jgoyal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/01/w05hf0k94jz7xfx9gb36y86407h0p1/T/"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="/Users/jgoyal/test/my-app"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/jgoyal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="/Users/jgoyal/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testInSufficientAccountTransfer" classname="io.revolut.AppTest" time="2.138">
+    <failure message="1 expectation failed.&#10;Response body doesn&apos;t match expectation.&#10;Expected: &lt;100&gt;&#10;  Actual: 100&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Response body doesn't match expectation.
+Expected: <100>
+  Actual: 100
+
+	at io.revolut.AppTest.testInSufficientAccountTransfer(AppTest.java:134)
+]]></failure>
+    <system-out><![CDATA[[2019-01-01 22:38:06,553]-[main] INFO  org.xnio - XNIO version 3.3.8.Final
+[2019-01-01 22:38:06,568]-[main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.3.8.Final
+[2019-01-01 22:38:06,721]-[main] INFO  io.revolut.App - [dev@undertow]: Server started in 1498ms
+
+  GET  /accounts                    [*/*]     [*/*]    (/AccountApiController.getAll)
+  GET  /accounts/{id}               [*/*]     [*/*]    (/AccountApiController.getOne)
+  GET  /accounts/{id}/{currency}    [*/*]     [*/*]    (/AccountApiController.getCurrencyBalance)
+  POST /accounts/transfer           [*/*]     [*/*]    (/AccountApiController.makeTransfer)
+
+listening on:
+  http://localhost:8080/
+
+[2019-01-01 22:38:09,134]-[utow task-1] ERROR org.jooby.Err - execution of: POST/accounts/transfer resulted in exception
+Route:
+      | Method | Path               | Source                                 | Name                               | Pattern            | Consumes | Produces |
+      |--------|--------------------|----------------------------------------|------------------------------------|--------------------|----------|----------|
+      | POST   | /accounts/transfer | io.revolut.api.AccountApiController:52 | /AccountApiController.makeTransfer | /accounts/transfer | [*/*]    | [*/*]    |
+
+Stacktrace:
+org.jooby.Err: Bad Request(400)
+	at org.jooby.internal.HttpHandlerImpl.handleErr(HttpHandlerImpl.java:589)
+	at org.jooby.internal.HttpHandlerImpl.cleanup(HttpHandlerImpl.java:562)
+	at org.jooby.internal.HttpHandlerImpl.handle(HttpHandlerImpl.java:504)
+	at org.jooby.internal.undertow.UndertowHandler.handleRequest(UndertowHandler.java:252)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Account INR1000000105 has insufficient funds 
+	at io.revolut.domain.TransactionService.processTransaction(TransactionService.java:39)
+	at io.revolut.domain.TransactionService.makeTransaction(TransactionService.java:23)
+	at io.revolut.api.TransferService.makeTransfer(TransferService.java:29)
+	at io.revolut.api.AccountApiController.makeTransfer(AccountApiController.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jooby.internal.mvc.MvcHandler.lambda$invoke$0(MvcHandler.java:278)
+	at org.jooby.funzy.Throwing.fn(Throwing.java:2423)
+	at org.jooby.funzy.Throwing.access$400(Throwing.java:39)
+	at org.jooby.funzy.Throwing$Supplier.get(Throwing.java:145)
+	at org.jooby.funzy.Try.apply(Try.java:691)
+	at org.jooby.internal.mvc.MvcHandler.invoke(MvcHandler.java:269)
+	at org.jooby.internal.mvc.MvcHandler.handle(MvcHandler.java:251)
+	at org.jooby.internal.RouteImpl.handle(RouteImpl.java:280)
+	at org.jooby.internal.RouteChain.next(RouteChain.java:262)
+	at org.jooby.Route$Chain.next(Route.java:2163)
+	at org.jooby.internal.HttpHandlerImpl.handle(HttpHandlerImpl.java:496)
+	... 6 common frames omitted
+]]></system-out>
+  </testcase>
+  <testcase name="testValidTransfer" classname="io.revolut.AppTest" time="0.048"/>
+  <testcase name="testGetAccountsSize" classname="io.revolut.AppTest" time="0.184"/>
+  <testcase name="testNonExistingAccount" classname="io.revolut.AppTest" time="0.015"/>
+  <testcase name="testGetAccount" classname="io.revolut.AppTest" time="0.304"/>
+  <testcase name="testSameAccountTransfer" classname="io.revolut.AppTest" time="0.026"/>
+</testsuite>
